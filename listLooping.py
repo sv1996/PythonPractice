@@ -1,12 +1,8 @@
-lst = ['one' , 'two' ,'three' ,'four']
-for ele in lst:
-    print(ele)
-
-    #list comprehension
-    square =[]
-    for i in range (10):
-         square.append(i**2 )
-    print(square)
-    # with List comprehension
-    square =[i**2 for i in range(10)]
-    print(square)
+def oddsums(n):
+  total=0
+  result=[]
+  for i in range(1,n+1):
+    odd= 2*i-1
+    total=total+odd
+    result.append(total)
+  return result
