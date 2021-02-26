@@ -17,3 +17,7 @@ print(my_dict)
 
 #dictionary acess
 print(my_dict[1])
+#delete in dictionary with
+
+print(my_dict.pop('age',1))
+print(my_dict)
