@@ -8,6 +8,7 @@ print_name("satish")
 
 ## function for sum iof list 
 
+
 def get_sum(lst):
     #Initializing the sum
     sum=0
@@ -18,4 +19,3 @@ def get_sum(lst):
 
 s= get_sum([1,2,3,4,5])
 print(s)
-
